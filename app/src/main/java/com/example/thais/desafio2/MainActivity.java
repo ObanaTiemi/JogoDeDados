@@ -87,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(this,"O jogador 1 venceu!", Toast.LENGTH_LONG).show();
         }if(dado2 > dado1){
             Toast.makeText(this,"O jogador 2 venceu!", Toast.LENGTH_LONG).show();
-        }else{
+        }else if(dado1 == dado2){
             Toast.makeText(this,"Empate!", Toast.LENGTH_LONG).show();
         }
     }
